@@ -18,7 +18,7 @@ var app = 				express();
 var port = 				process.env.PORT || 3000; 
 var http = 				require('http').Server(app);
 var io = 				require('socket.io')(http);
-http.listen(port);
+//http.listen(port);
 
 var mongoose = 			require('mongoose');
 var passport = 			require('passport');
