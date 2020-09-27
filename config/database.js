@@ -2,6 +2,7 @@
 
 module.exports = {
 
-	'url': 'mongodb://127.0.0.1:27017/chatapp'
+		'url': 'mongodb+srv://admin:admin123@cluster0.s4twb.mongodb.net/chatapp?retryWrites=true&w=majority'
+
 
 }
